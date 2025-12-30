@@ -1,36 +1,65 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Sammunat Internship Assignment - Landing Page
 
-## Getting Started
+## Overview
 
-First, run the development server:
+This is a high-performance landing page developed as part of the selection process for the **Web Development Intern** role at **Sammunat LLC**. 
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+The goal was to design and develop a responsive, modern web application that demonstrates mastery of the **React/Next.js** ecosystem. The project focuses on clean architecture, component reusability, and engaging user interactions.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+**[🔴 View Live Demo](https://sammunat-assignment-saumyaketu.vercel.app/)**
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+##  Key Features
 
-## Learn More
+* **Next.js App Router:** Built on the latest Next.js architecture for optimal performance and SEO.
+* **Responsive Design:** Fully responsive layout using **Tailwind CSS**, optimized for mobile, tablet, and desktop.
+* **Interactive Animations:** Smooth entrance animations and scroll effects powered by **Framer Motion**.
+* **Smart Rating System:** Custom algorithm to render fractional star ratings (e.g., 4.5 stars) with precision layering.
+* **Mobile-First Navigation:** Sticky header with a smooth, collapsible mobile menu.
+* **Type Safety:** Written entirely in **TypeScript** to ensure robust and error-free code.
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Tech Stack
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+| Category | Technology | Reason for Choice |
+| :--- | :--- | :--- |
+| **Framework** | Next.js | Industry standard for production React apps; handles SSR/SEO out of the box. |
+| **Language** | TypeScript | Prevents runtime errors and improves code maintainability. |
+| **Styling** | Tailwind CSS | Rapid UI development with low bundle size overhead. |
+| **Icons** | Lucide React | Lightweight, consistent SVG icons. |
+| **Animation** | Framer Motion | specialized library for complex React animations. |
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Setup & Installation
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Follow these steps to run the project on your local machine:
+
+1.  **Clone the repository**
+    ```bash
+    git clone https://github.com/Saumyaketu/Sammunat-landing-page.git
+    cd Sammunat-landing-page
+    ```
+
+2.  **Install dependencies**
+    ```bash
+    npm install
+    ```
+
+3.  **Run the development server**
+    ```bash
+    npm run dev
+    ```
+
+4.  **Open the browser**
+    Navigate to [http://localhost:3000](http://localhost:3000) to view the application.
+
+---
+
+## Author
+
+**Saumyaketu Chand Gupta**  
+LinkedIn: [saumyaketu](https://www.linkedin.com/in/saumyaketu/)  
+GitHub: [Saumyaketu](https://github.com/Saumyaketu)
